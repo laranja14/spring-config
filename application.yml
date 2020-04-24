@@ -1,6 +1,7 @@
 # 서비스 포트
-# server:
-#   port: 9090
+ server:
+   port: 9999
+
 loggin:
   config: classpath:logback-${spring.profiles.active}.xml
 
